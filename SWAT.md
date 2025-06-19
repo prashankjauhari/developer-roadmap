@@ -59,7 +59,13 @@ This ensures **business continuity**, **quality**, and **customer satisfaction**
   2) User created in downstream but not registered on ATB.
   3) Change order is in awaiting state for a long time. Waiting for some input.
      Need to explore if we can somehow automatically create a ticket in to downstream system with some severity.
-- System Health Reporting based on Journey wise health, Weekly and Monthly Report.    
+- System Health Reporting based on Journey wise health, Weekly and Monthly Report.
+- An TechOps Agent that understand nitty grity of individual journey and that can help in logical debugging.
+  Example: Why payment is still in Pending state.
+           Why User Request is still in pending state.
+           Why Change order is not closed.
+           Who can raise Sim Swap Request.
+ For this We need to train AI Agenet on UP TO Date LLD for different journies.          
      
 
   
@@ -76,7 +82,8 @@ This ensures **business continuity**, **quality**, and **customer satisfaction**
 ## 6. Team Composition
 
 - **SWAT Lead** (Tech/Process Owner)
-- **ATB Techops** 
+- **ATB Techops**
+- **Sprint Wise Swat**
 - **DevOps & Developer Support**
 
 ---
