@@ -115,8 +115,8 @@ To scale impact despite a lean team, SWAT is augmented with **LLM-powered tools*
 - 🧠 **TechOps AI Agent**: Trained on current LLDs and journey-specific workflows  
 - 🤖 **Promptable Debugging**:
   - “Why is Payment ID X stuck in pending?”  
-  - “Why is UM-ID not updated in downstream?”  
-  - “Which team owns Sim Swap failure on step Y?”
+  - “Why is Contact Update Request is stuck?”  
+  - Customer Payment is done but still i can not see updated invoice on dashboard? What could be the reasons as per online payment solutions.
 
 ### Benefits:
 - Speeds up onboarding of new SWAT members  
