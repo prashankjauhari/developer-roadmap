@@ -14,7 +14,7 @@ This ensures **business continuity**, **quality**, and **customer satisfaction**
 
 ### a. Business Justification:
 - Recurring production outages, missed deadlines.
-- Fast-growing product and platform scope has outpaced the current team structure.
+- Fast-growing product and platform scope require structure and process in swat.
 - We need a **highly skilled, autonomous unit** that can engage, resolve, and hand over critical issues quickly.
 
 ### b. Strategic Alignment:
@@ -30,8 +30,6 @@ This ensures **business continuity**, **quality**, and **customer satisfaction**
 - ⚡ **Rapid Incident Response**: Handle high-priority production issues (P0/P1) quickly.
 - 📚 **Organizational Memory**: Document solutions and share learnings for future prevention.
 -      Enhance **Customer trust** within ATB
-  
-
 ---
 
 ## 4. Deliverables
@@ -53,6 +51,18 @@ This ensures **business continuity**, **quality**, and **customer satisfaction**
 - Production P0/P1 incidents
 - Complex cross-squad dependencies
 - Journey wise health report.
+- Journey wise proactive alerts.
+- Journey wise SLA & Severity classification.
+- Auto trouble shooting based on respective journey id(payment id, UM-ID, Change order ID) this can help new swat members to trouble shoot existing journies, mostly these will be async journey.
+- Journey wise anomaly.
+  1) Payment initiated and order created but events are missing. In these cases no  alerts will be generated.
+  2) User created in downstream but not registered on ATB.
+  3) Change order is in awaiting state for a long time. Waiting for some input.
+     Need to explore if we can somehow automatically create a ticket in to downstream system with some severity.
+- System Health Reporting based on Journey wise health, Weekly and Monthly Report.    
+     
+
+  
 
 ### 🚫 OUT OF SCOPE:
 - Routine feature development.
